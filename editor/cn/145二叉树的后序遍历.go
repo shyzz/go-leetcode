@@ -58,7 +58,7 @@ func main() {
 // 	Right *TreeNode
 // }
 
-// go-leetcode submit region begin(Prohibit modification and deletion)
+// leetcode submit region begin(Prohibit modification and deletion)
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -106,4 +106,4 @@ func postorderTraversal2(root *TreeNode) []int {
 	return ans
 }
 
-// go-leetcode submit region end(Prohibit modification and deletion)
+// leetcode submit region end(Prohibit modification and deletion)

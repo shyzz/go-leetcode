@@ -56,7 +56,7 @@ type TreeNode struct {
 	Right *TreeNode
 }
 
-// go-leetcode submit region begin(Prohibit modification and deletion)
+// leetcode submit region begin(Prohibit modification and deletion)
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -94,4 +94,4 @@ func levelOrderBottom(root *TreeNode) [][]int {
 	return ans
 }
 
-// go-leetcode submit region end(Prohibit modification and deletion)
+// leetcode submit region end(Prohibit modification and deletion)

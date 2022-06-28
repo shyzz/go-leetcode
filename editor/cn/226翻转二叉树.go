@@ -46,7 +46,7 @@ func main() {
 	fmt.Println(result)
 }
 
-// go-leetcode submit region begin(Prohibit modification and deletion)
+// leetcode submit region begin(Prohibit modification and deletion)
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -69,4 +69,4 @@ func invertTree(root *TreeNode) *TreeNode {
 	return root
 }
 
-// go-leetcode submit region end(Prohibit modification and deletion)
+// leetcode submit region end(Prohibit modification and deletion)
