@@ -93,9 +93,7 @@ func fb4(n int) int {
 	}
 	prev, curr := 1, 1
 	for i := 3; i < n; i++ {
-		sum := prev + curr
-		prev = curr
-		curr = sum
+		prev, curr = curr, prev+curr
 	}
 	return curr
 }
